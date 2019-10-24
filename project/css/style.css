@@ -1,0 +1,102 @@
+
+            h1{
+                font-size: 50px;
+                font-family:verdana;
+                margin-top: -37px;
+            }
+            body
+            {
+                background-image: url("pic.jpg");
+                background-blend-mode: multiply;
+                background-repeat: no-repeat, repeat;
+                background-attachment: fixed;
+               
+            }
+            input[type=text], select {
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 13px;
+                box-sizing: border-box;
+                font-family: 'Times New Roman', Times, serif;
+                font-size:20px;
+                
+            }
+            input[type=password] {
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 13px;
+                box-sizing: border-box;
+                font-family: 'Times New Roman', Times, serif;
+                font-size:20px;
+                
+            }
+            input[type=email] {
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 13px;
+                box-sizing: border-box;
+                font-family: 'Times New Roman', Times, serif;
+                font-size:20px;    
+            }
+
+           div {
+                border-radius: 5px;
+                background-color: #f2f2f2;
+                padding: 84px;
+                margin-top: 130px;
+                margin-left: 230px;
+                margin-right: 285px;
+                padding-bottom: 100px;
+                background-blend-mode: multiply;
+                background-repeat: no-repeat, repeat;
+                background-attachment: fixed;
+                
+
+            }
+            input[type=submit]:hover {
+                background-color: #45a049;
+            }
+            input[type=submit] {
+                width: 20%;
+                background-color: #4CAF50;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                border-radius: 13px;
+                cursor: pointer;
+                
+            }
+            input[type=reset]{
+                width: 20%;
+                background-color: red;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                border-radius: 13px;
+                cursor: pointer;
+            }
+            
+            label{
+                font-size: 20px;
+            }
+            textarea {
+                border: none;
+                border-radius: 13px;
+                margin-top: 10px;
+                width: 100%;
+                padding: 14px;
+                display: inline-block;
+                box-sizing: border-box;
+                padding-inline-start: 26px;
+            }
